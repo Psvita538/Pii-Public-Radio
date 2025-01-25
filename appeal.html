@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appeal Form</title>
+</head>
+<body>
+    <h2>Submit an Appeal</h2>
+    <form id="appealForm">
+        <label for="userId">User ID:</label><br>
+        <input type="text" id="userId" name="userId" required><br><br>
+
+        <label for="appealMessage">Appeal Message:</label><br>
+        <textarea id="appealMessage" name="appealMessage" required></textarea><br><br>
+
+        <button type="button" onclick="sendToDiscord()">Send</button>
+    </form>
+
+    <script>
+        function sendToDiscord() {
+            const userId = document.getElementById('userId').value;
+            const appealMessage = document.getElementById('appealMessage').value;
+
+            if (!userId || !appealMessage) {
+                alert('Please fill in both fields.');
+                return;
+            }
+
+            const webhookURL = 'https://discord.com/api/webhooks/1265003244212719636/6DIPTN0QNnWHjPnU8vyTBnuxEKQ3hwkjn1CGb9JL7rOzP6Sq-I7OiLYBCt-FQW-408uo';
+            const payload = {
+                content: `User ID: ${userId}\nAppeal Message: ${appealMessage}`
+            };
+
+            fetch(webhookURL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Appeal sent successfully!');
+                } else {
+                    alert('Failed to send appeal.');
+                }
+            })
+            .catch(error => {
+                console.error('Error sending to Discord: ', error);
+                alert('Error sending appeal.');
+            });
+        }
+    </script>
+</body>
+</html>

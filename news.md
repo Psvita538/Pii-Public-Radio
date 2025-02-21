@@ -6,4 +6,8 @@ On the crash, multiple scientists and engineers, along with ambulance, firefight
 
 The engineers have inspected the plane architecture and it seems it was NOT built very well, depending how the plane was mostly built with poor quality materials. They assumed that the processor and controls and the plane builds were NOT powerful enough, well, we have some witness from the ground recording the plane in mid-air, but one of the plane wings snapped in half and the plane was quickly into flames.
 
-Many people have never seen this type of plane before, today.
+Many people from all over the world have never seen this type of plane before, until discovered today.
+
+When the experts placed the intel processor & the Sandisk SD card 1TB on their machines, the processor had an massive failure, one of the cores in the cpu had died from overheating, and the SD showed an actual camera of outside and inside the plane. Most of the systems were powered, controlled, and monitored by Windows 11, when the person was driving it, he noticed the systems were not responding in time and the status was out of sync, he was going the wrong direction of where he was supposed to fly and flew the oppsite direction instead, the Windows 11's SIM & GPS was malfunctioning and it kept giving errors. The battery & CPU was stuck at 100% the entire flight, and soon, he lost control of the plane when it kept turning and turning the wrong direction, and then, one of the plane wings snapped off and the systems shut off. He tried to get it back on, but, on the screen, came up a Blue screen of death. saying "Security Access Violation". And that's when the plane crashed on the ground at full speed. Causing a loud sound. One life was lost.
+
+After their low quality with news reporter watermark on their website, people have now seriously been leaving Windows 11, Windows 11 had lost a lot of customers, many on Windows 10, many on linux and mac os.

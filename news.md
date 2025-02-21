@@ -1,0 +1,2 @@
+An local news has reported that there was a modern plane of the future looking like that has crashed in the open area in the forest, we received several airport reports that there is something in the air that's not registered on the platform etc delta, amercian airlines and more.
+The people at the "Metropan town area" has noticed that it used Windows 11 system's to import that were used to help navagate
